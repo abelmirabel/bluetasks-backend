@@ -79,6 +79,7 @@ INDEX VERSION 1.131+C:\Users\daniel.luiz\WorkSpace\bluetasks\.metadata\.plugins\
 3923375159.index
 2497573150.index
 3898667872.index
+1481020512.index
 3113694295.index
 3310115701.index
 2942968703.index
@@ -89,6 +90,7 @@ INDEX VERSION 1.131+C:\Users\daniel.luiz\WorkSpace\bluetasks\.metadata\.plugins\
 1926311601.index
 277251732.index
 2911420.index
+677450493.index
 2107751832.index
 1360092800.index
 141029134.index
