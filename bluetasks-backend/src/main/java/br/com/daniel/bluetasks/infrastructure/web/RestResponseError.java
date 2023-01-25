@@ -50,9 +50,9 @@ public class RestResponseError {
 		return resp;
 	}
 	
-//	public static RestResponseError fromMessage(String message) {
-//		RestResponseError resp = new RestResponseError();
-//		resp.error = message;
-//		return resp;
-//	}
+	public static RestResponseError fromMessage(String message) {
+		RestResponseError resp = new RestResponseError();
+		resp.error = message;
+		return resp;
+	}
 }
