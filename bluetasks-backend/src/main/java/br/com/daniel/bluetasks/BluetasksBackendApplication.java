@@ -1,6 +1,5 @@
 package br.com.daniel.bluetasks;
 
-
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.boot.SpringApplication;
@@ -11,7 +10,6 @@ import org.springframework.data.rest.core.event.ValidatingRepositoryEventListene
 import org.springframework.data.rest.webmvc.config.RepositoryRestConfigurer;
 import org.springframework.validation.Validator;
 import org.springframework.validation.beanvalidation.LocalValidatorFactoryBean;
-import org.springframework.web.servlet.config.annotation.CorsRegistry;
 
 import br.com.daniel.bluetasks.domain.task.Task;
 
@@ -24,14 +22,26 @@ public class BluetasksBackendApplication implements RepositoryRestConfigurer {
 		logger.info("Bluetasks in action!");
 	}
 
+//	@Override
+//	public void configureRepositoryRestConfiguration(RepositoryRestConfiguration config) {
+//		config.exposeIdsFor(Task.class);
+//		config.getCorsRegistry()
+//			.addMapping("/**")
+//			.allowedOrigins("*")
+//			.allowedMethods("GET", "POST", "PUT", "DELETE");
+//		
+//		logger.info("Repository CORS setup... OK!");
+//	}
+	
 	@Override
-	public void configureRepositoryRestConfiguration(RepositoryRestConfiguration config, CorsRegistry corsRegistry) {
-	    config.exposeIdsFor(Task.class);
-	    corsRegistry
-	        .addMapping("/**")
-		    .allowedOrigins("*")
-		    .allowedMethods("GET","POST","PUT","DELETE");
-	    logger.info("Repository CORS setub.. OK");		
+	public void configureRepositoryRestConfiguration(RepositoryRestConfiguration config) {
+		config.exposeIdsFor(Task.class);
+		config.getCorsRegistry()
+			.addMapping("/**")
+			.allowedOrigins("*")
+			.allowedMethods("GET", "POST", "PUT", "DELETE");
+		
+		logger.info("Repository CORS setup... OK!");
 	}
 	
 	@Bean
