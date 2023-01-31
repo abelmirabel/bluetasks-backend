@@ -1,2 +1,26 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<qualifiedTypeNameHistroy/>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="jakarta.persistence.Entity"/>
+    <fullyQualifiedTypeName name="javax.persistence.Table"/>
+    <fullyQualifiedTypeName name="org.springframework.data.repository.CrudRepository"/>
+    <fullyQualifiedTypeName name="javax.persistence.GeneratedValue"/>
+    <fullyQualifiedTypeName name="javax.validation.constraints.NotNull"/>
+    <fullyQualifiedTypeName name="javax.validation.constraints.FutureOrPresent"/>
+    <fullyQualifiedTypeName name="org.hibernate.validator.constraints.Length"/>
+    <fullyQualifiedTypeName name="javax.persistence.Entity"/>
+    <fullyQualifiedTypeName name="com.fasterxml.jackson.annotation.JsonIgnore"/>
+    <fullyQualifiedTypeName name="javax.persistence.Id"/>
+    <fullyQualifiedTypeName name="javax.validation.constraints.NotEmpty"/>
+    <fullyQualifiedTypeName name="org.springframework.stereotype.Repository"/>
+    <fullyQualifiedTypeName name="org.springframework.data.repository.PagingAndSortingRepository"/>
+    <fullyQualifiedTypeName name="java.lang.Integer"/>
+    <fullyQualifiedTypeName name="org.springframework.stereotype.Component"/>
+    <fullyQualifiedTypeName name="br.com.daniel.bluetasks.domain.task.TaskRepository"/>
+    <fullyQualifiedTypeName name="br.com.daniel.bluetasks.domain.user.AppUserRepository"/>
+    <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
+    <fullyQualifiedTypeName name="org.springframework.context.event.ContextRefreshedEvent"/>
+    <fullyQualifiedTypeName name="org.springframework.context.event.EventListener"/>
+    <fullyQualifiedTypeName name="br.com.daniel.bluetasks.domain.user.AppUser"/>
+    <fullyQualifiedTypeName name="br.com.daniel.bluetasks.domain.task.Task"/>
+    <fullyQualifiedTypeName name="java.time.LocalDate"/>
+</qualifiedTypeNameHistroy>
